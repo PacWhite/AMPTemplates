@@ -1,0 +1,33 @@
+App.AdminMethod=STDIO
+App.ApplicationPort1=7777
+App.ApplicationReadyMode=Immediate
+App.BaseDirectory=./asylum-samp-037-server/
+App.CommandLineArgs=--template=server.template --output=server.cfg {{$FormattedArgs}}
+App.CommandLineParameterDelimiter= 
+App.CommandLineParameterFormat={0}={1}
+App.DisplayName=ASYLUM-SAMP-0.3.7-Server
+App.ExecutableLinux=
+App.ExecutableWin=AsylumConfigBot.exe
+App.ExitMethod=CtrlC
+App.ExitString=stop
+App.HasReadableConsole=true
+App.HasWritableConsole=true
+App.RapidStartup=false
+App.RootDir=./asylum-samp-037-server/
+App.UpdateSource=Multi
+App.UpdateSources=[{"UpdateStageName": "Server Download","UpdateSourcePlatform": "All", "UpdateSource": "FetchURL", "UpdateSourceData": "https://mirror.asylum.team/samp037server_win.zip", "UnzipUpdateSource": true}]
+App.WorkingDir=
+Console.AppReadyRegex=^Server is ready.$
+Console.ThrowawayMessageRegex=^(WARNING|ERROR): Shader.+$
+Console.UserChatRegex=^(?<username>.+?): (?<message>.+)$
+Console.UserJoinRegex=^User (?<username>.+?) \((?<userid>-?d+)\) connected from \[::ffff:(?<endpoint>.+?)\]$
+Console.UserLeaveRegex=^User (?<username>.+?) \((?<userid>-?d+)\) disconnected\. Reason: (.+?)$
+Meta.Author=PacWhite
+Meta.ConfigManifest=asylum-samp-037-serverconfig.json
+Meta.ConfigRoot=asylum-samp-037-server.kvp
+Meta.Description=SAMP 0.3.7 Server
+Meta.DisplayImageSource=url:https://mirror.asylum.team/samp037server.jpg
+Meta.DisplayName=ASYLUM-SAMP-0.3.7-Server
+Meta.EndpointURIFormat=
+Meta.OS=1
+Meta.URL=https://www.sa-mp.com/
