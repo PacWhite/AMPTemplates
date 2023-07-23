@@ -51,23 +51,6 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Port",
-        "Category": "Server Settings",
-        "Description": "Server Port",
-        "Keywords": "port",
-        "FieldName": "port",
-        "InputType": "text",
-        "IsFlagArgument": false,
-        "ParamFieldName": "port",
-        "IncludeInCommandLine": true,
-        "DefaultValue": "",
-        "Placeholder": "",
-        "Suffix": "",
-        "Hidden": true,
-        "SkipIfEmpty": false,
-        "EnumValues": {}
-    },
-    {
         "DisplayName": "Hostname",
         "Category": "Server Settings",
         "Description": "Display Name of Server",

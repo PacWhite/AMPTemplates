@@ -4,7 +4,7 @@ App.AdminPortRef=RemoteAdminPort
 App.ApplicationIPBinding=0.0.0.0
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./asylum-samp-037-server/serverfiles/
-App.CommandLineArgs=--startup=samp-server.exe --template=server.template --output=server.cfg {{$FormattedArgs}}
+App.CommandLineArgs=--startup=samp-server.exe --template=server.template --output=server.cfg {{$FormattedArgs}} port={{$ApplicationPort}}
 App.CommandLineParameterDelimiter= 
 App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None
