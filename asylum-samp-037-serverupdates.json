@@ -6,7 +6,7 @@
         "UpdateSourceData": "https://mirror.asylum.team/samp037server_win.zip",
         "UpdateSourceArgs": "",
         "UpdateSourceVersion": "",
-        "UpdateSourceTarget": "",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "ForceDownloadPlatform": null,
