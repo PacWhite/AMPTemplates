@@ -4,7 +4,7 @@ App.AdminPortRef=RemoteAdminPort
 App.ApplicationIPBinding=0.0.0.0
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./asylum-samp-037-server/serverfiles/
-App.CommandLineArgs=--startup=samp-server.exe --template=server.template --output=server.cfg port={{$ApplicationPort1}} {{$PlatformArgs}} {{$FormattedArgs}}
+App.CommandLineArgs=--startup=samp-server.exe --template=server.template --output=server.cfg {{$PlatformArgs}} {{$FormattedArgs}} port={{$ApplicationPort1}}
 App.CommandLineParameterDelimiter= 
 App.CommandLineParameterFormat={0}={1}
 App.Compatibility=None
@@ -35,7 +35,7 @@ App.RemoteAdminPassword=
 App.RootDir=./asylum-samp-037-server/
 App.SteamForceLoginProm=False
 App.SteamUpdateAnonymousLogin=True
-App.SteamWorkshopDownloadLocation={{$FullBaseDir}}undefined
+App.SteamWorkshopDownloadLocation={{$FullBaseDir}}
 App.SupportsLiveSettingsChanges=False
 App.SupportsUniversalSleep=False
 App.TelnetLoginFormat={0}
