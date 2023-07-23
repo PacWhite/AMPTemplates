@@ -1,7 +1,7 @@
 [
     {
-        "UpdateStageName": "Download",
-        "UpdateSourcePlatform": "All",
+        "UpdateStageName": "",
+        "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://mirror.asylum.team/samp037server_win.zip",
         "UpdateSourceArgs": "",
